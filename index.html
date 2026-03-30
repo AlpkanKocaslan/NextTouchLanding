@@ -1,155 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Plan your next touch</title>
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NextTouch — Coming Soon</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
-<header class="navbar">
-  <div class="nav-left"><img src="assets/logo.png" alt="NextTouch Logo"></div>
-
-  <nav class="nav-center desktop-nav">
-    <!-- <a href="#">How it works</a>
-    <a href="#">Contact</a> -->
-  </nav> 
-
-  <div class="nav-right desktop-nav">
-    <a
-      href="https://chat.whatsapp.com/ExRCekR6Mfz4OcJfMaUAy2"
-      target="_blank"
-      rel="noopener"
-      class="btn-primary"
-    >
-      Join WhatsApp
-    </a>
-  </div>
-
-  <!-- Mobile menu button -->
-  <button class="menu-toggle" aria-label="Open menu">
-    ☰
-  </button>
-
-  <!-- Mobile dropdown -->
-  <div class="mobile-menu">
-    <a href="#">How it works</a>
-    <a href="#">Contact</a>
-    <a
-      href="https://chat.whatsapp.com/ExRCekR6Mfz4OcJfMaUAy2"
-      target="_blank"
-      rel="noopener"
-      class="btn-primary"
-    >
-      Join WhatsApp
-    </a>
-  </div>
-</header>
+<nav>
+  <div class="logo">Next<span>T</span>ouch</div>
+  <div class="nav-badge">Launching soon</div>
+</nav>
 
 <section class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-overlay"></div>
+  <div class="pitch-circle"></div>
+  <div class="pitch-circle pitch-circle-2"></div>
 
-  <div class="hero-content">
-    <h1>PLAN YOUR<br>NEXT TOUCH</h1>
-    <p>
-      Join or create quality football matches —  
-      matched by location, level, position and more.
-    </p>
-    <br>
-    <p>- Official platform launching soon -</p>
-    <a
-      href="https://chat.whatsapp.com/ExRCekR6Mfz4OcJfMaUAy2"
-      target="_blank"
-      rel="noopener"
-      class="btn-primary big"
+  <p class="eyebrow">Antwerp, Belgium — Coming soon</p>
+  <h1 class="hero-headline">
+    Find your game.<br>
+    <span class="accent">Find your team.</span>
+  </h1>
+  <p class="hero-sub">
+    No more endless group chats.<br>
+    <strong>NextTouch</strong> lets you join or create football matches in seconds — with players near you.
+  </p>
+  <div class="cta-group">
+    <a href="#notify" class="cta-primary">Get early access</a>
+    <span class="cta-note">Free · No spam · Launching in Antwerp</span>
+  </div>
+
+  <div class="scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<section class="section">
+  <p class="section-label reveal">The problem</p>
+  <h2 class="section-title reveal">Organising football<br>is a nightmare.</h2>
+
+  <div class="pain-grid">
+    <div class="pain-card reveal">
+      <div class="pain-number">01</div>
+      <div class="pain-title">Group chat chaos</div>
+      <div class="pain-desc">You send a message. Three people reply. Two cancel last minute. Game's off. Every single time.</div>
+    </div>
+    <div class="pain-card reveal">
+      <div class="pain-number">02</div>
+      <div class="pain-title">You don't know enough people</div>
+      <div class="pain-desc">A proper game needs 8 to 10 players. New in the city or just a small network? You're stuck.</div>
+    </div>
+    <div class="pain-card reveal">
+      <div class="pain-number">03</div>
+      <div class="pain-title">Empty pitches, full schedules</div>
+      <div class="pain-desc">Venues have empty slots. You want to play. Those two things just never find each other.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top: 0;">
+  <p class="section-label reveal">How it works</p>
+  <h2 class="section-title reveal">Simple as that.</h2>
+
+  <div class="steps">
+    <div class="step reveal">
+      <div class="step-num">— 01</div>
+      <div class="step-title">Create a game</div>
+      <div class="step-desc">Pick a location, time, level and player count. Done in under 30 seconds.</div>
+    </div>
+    <div class="step reveal">
+      <div class="step-num">— 02</div>
+      <div class="step-title">Strangers join</div>
+      <div class="step-desc">Players nearby see your game and join. You don't need to know anyone.</div>
+    </div>
+    <div class="step reveal">
+      <div class="step-num">— 03</div>
+      <div class="step-title">Game's full — just play</div>
+      <div class="step-desc">NextTouch handles payments, waitlists and no-show rules. You focus on football.</div>
+    </div>
+    <div class="step reveal">
+      <div class="step-num">— 04</div>
+      <div class="step-title">Build your network</div>
+      <div class="step-desc">Play with the same people again. Your community grows naturally from every game.</div>
+    </div>
+  </div>
+</section>
+
+<div class="venue-block">
+  <div class="venue-inner">
+    <div class="venue-tag">For venues</div>
+    <h2 class="venue-title reveal">Empty time slots<br>are lost revenue.</h2>
+    <p class="venue-desc reveal">NextTouch fills your pitch with motivated players — without any effort on your end. We're launching in Antwerp and looking for partner venues to grow with.</p>
+    <a href="mailto:nexttouchbe@gmail.com" class="venue-cta reveal">Get in touch as a venue →</a>
+  </div>
+</div>
+
+<section class="bottom-cta" id="notify">
+  <h2 class="big-text reveal">
+    Ready to<br><span>play?</span>
+  </h2>
+  <p style="color: var(--muted); font-size: 15px; margin-bottom: 36px;" class="reveal">
+    Drop your email and we'll let you know the moment we go live in Antwerp.
+  </p>
+
+  <form
+    class="email-form reveal"
+    id="emailForm"
+    action="https://usebasin.com/f/0490ba6ca422"
+    method="POST"
+  >
+    <input
+      type="email"
+      id="emailInput"
+      name="email"
+      placeholder="your@email.com"
+      required
+      autocomplete="email"
     >
-      Join WhatsApp
-    </a>
-    <span class="hero-note">Get early access, updates & help shape the platform</span>
-  </div>
+    <button type="submit" id="submitButton">Notify me</button>
+  </form>
+
+  <p class="form-note reveal">No spam. Just one message when NextTouch launches.</p>
+  <p class="success-msg" id="successMsg"></p>
+  <p class="error-msg" id="errorMsg"></p>
 </section>
 
-<section class="how-it-works">
-  <h2>HOW IT WORKS</h2>
-
-  <div class="cards">
-    <div class="card card-1">
-      <div class="card-img"></div>
-      <span>
-        <strong>Create a session in seconds</strong><br>
-        Time, location & capacity
-      </span>
-    </div>
-
-    <div class="card card-2">
-      <div class="card-img"></div>
-      <span>
-        <strong>Choose level & positions</strong><br>
-        Keep sessions competitive
-      </span>
-    </div>
-
-    <div class="card card-3">
-      <div class="card-img"></div>
-      <span>
-        <strong>Get matched with players nearby</strong><br>
-        No club required
-      </span>
-    </div>
-
-    <div class="card card-4">
-      <div class="card-img"></div>
-      <span>
-        <strong>Play with confidence</strong><br>
-        Community rules & fewer no-shows
-      </span>
-    </div>
+<footer>
+  <div class="logo">Next<span>T</span>ouch</div>
+  <div class="social-links">
+    <a href="https://instagram.com/nexttouchbe" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <a href="https://tiktok.com/@nexttouch.be" target="_blank" rel="noopener noreferrer">TikTok</a>
   </div>
-</section>
-
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <img src="assets/logo.png" alt="Logo">
-      <p>
-        A training-first community for footballers who want to improve — together.
-      </p>
-    </div>
-
-    <div class="footer-links">
-      <!-- <h4>Product</h4>
-      <a href="#">How it works</a>
-      <a href="#">Roadmap</a>
-      <a href="#">Updates</a> -->
-    </div>
-
-    <div class="footer-links">
-      <!-- <h4>Company</h4>
-      <a href="#">Contact</a>
-      <a href="#">Privacy</a>
-      <a href="#">Terms</a> -->
-    </div> 
-
-    <div class="footer-cta">
-      <span>Be there from day one</span>
-      <a
-        href="https://chat.whatsapp.com/ExRCekR6Mfz4OcJfMaUAy2"
-        target="_blank"
-        rel="noopener"
-        class="btn-primary"
-      >
-        Join WhatsApp
-      </a>
-    </div>
-  </div>
-
-  <div class="footer-bottom">
-    © 2026 NextTouch. All rights reserved.
-  </div>
+  <p>© 2026 NextTouch. Antwerp, Belgium.</p>
 </footer>
-
 <script src="js/main.js"></script>
 
 </body>
